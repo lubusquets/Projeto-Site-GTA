@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: "Bangers", system-ui;
 }
 
 body {
@@ -30,8 +31,9 @@ body {
 
 .textos {
     position: absolute;
-    bottom: 40;
+    bottom: 40px;
     left: 40;
+    
 
 }
 
@@ -46,3 +48,22 @@ h1 {
     font-size: 72px;
 
 }
+
+.texto-apoio {
+    color: #ffffff;
+    font-size: 14px;
+    
+  
+}
+
+.menu {
+    position: absolute;
+    bottom: 40px;
+    /* caixa flexível */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
