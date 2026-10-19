@@ -32,7 +32,7 @@ body {
 .textos {
     position: absolute;
     bottom: 40px;
-    left: 40;
+    left: 40px;
     
 
 }
@@ -64,6 +64,24 @@ h1 {
     justify-content: center;
     align-items: center;
     width: 100%;
+/* espaçamento entre os itens */
+    gap: 20px;
 }
 
+.avatar {
+    width: 60px;
+    height: 60px;
+    /*aredondamento dos itens*/
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid #ffffff;
+}
 
+.voce {
+    background-color: #ffd319;
+    /*espaçamento interno*/
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
