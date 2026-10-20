@@ -4,10 +4,14 @@
     font-family: "Bangers", system-ui;
 }
 
+
 body {
     background-image: url("imagens/background2.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
 }
 
 .nome {
@@ -33,14 +37,13 @@ body {
     position: absolute;
     bottom: 40px;
     left: 40px;
-    
-
+  
 }
 
 .etiqueta {
     color: #ffd319;
     font-size: 26px;
-
+    margin-bottom: 25px;
 }
 
 h1 {
@@ -51,9 +54,13 @@ h1 {
 
 .texto-apoio {
     color: #ffffff;
-    font-size: 14px;
-    
-  
+    font-size: 16px;
+    text-transform: uppercase; /* deixa igual do print */
+    letter-spacing: 1px;
+    line-height: 1.2;
+    opacity: 0.95;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.9);
+    margin-top: 20px;
 }
 
 .menu {
