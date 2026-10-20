@@ -100,12 +100,22 @@ h1 {
 
 .voce {
     background-color: #ffd319;
-    /*espaçamento interno*/
     padding: 20px;
     border-radius: 50%;
     border: 2px solid #ffffff;
+    cursor: pointer;
+    font-size: 24px;
+    transition: transform 0.2s ease;
+}
+
+.voce:hover,
+.voce:focus-visible {
+    transform: scale(1.08);
+    outline: none;
 }
 
 .avatar.selecionado {
     border-color: #ffd319;
+    transform: scale(1.08);
 }
+

@@ -41,10 +41,24 @@
             <img src="imagens/cj.png" alt="">
         </button>
 
-        <button class="voce">📸</button>
+        <button class="voce" type="button" aria-label="Tirar selfie do personagem">📸</button>
 
 
     </div>
+
+
+
+    <div id="camera-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.9); z-index:999; flex-direction:column; align-items:center; justify-content:center; gap:20px;">
+    <video id="video" autoplay playsinline style="width:90%; max-width:400px; border-radius:20px; transform: scaleX(-1);"></video>
+    <div style="display:flex; gap:15px;">
+        <button id="btn-tirar-foto" style="padding:15px 30px; border-radius:50px; background:#ffd319; border:none; font-family:Bangers; font-size:20px; cursor:pointer;">TIRAR FOTO</button>
+        <button id="btn-fechar-camera" style="padding:15px 30px; border-radius:50px; background:#fff; border:none; font-family:Bangers; font-size:20px; cursor:pointer;">FECHAR</button>
+    </div>
+</div>
+<canvas id="canvas" style="display:none;"></canvas>
+
+
+
 
 </body>
 
